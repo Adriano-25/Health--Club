@@ -149,6 +149,23 @@ p {
     color: darkgreen;
 }
 
+
+/*photo section*/
+
+
+img{
+    width: auto;
+    height: auto;
+    
+}
+#about-us img{
+    display: flex;
+    flex-direction:row;
+    width: 50%;
+    height: auto;
+    background-clip: content-box;
+}
+
 /*web social links*/
 
 footer {
@@ -187,3 +204,4 @@ footer a:hover{
     transition: .5s;
     color: green;
 }
+
