@@ -22,7 +22,7 @@ header {
 h1 {
     width: 60%;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(168, 164, 164,0.5);
+    background-color: rgb(168, 164, 164, 0.5);
     color: green;
     font-size: 45px;
     padding-left: 22%;
@@ -47,7 +47,7 @@ nav {
     background-color: darkgreen;
 
 }
-    
+
 
 
 
@@ -62,42 +62,41 @@ nav ul {
 }
 
 
-ul li  {
+ul li {
     margin: auto;
     max-width: fit-content;
-   
+
 }
 
 
-nav a{
+nav a {
     text-decoration: none;
     text-transform: inherit;
     color: whitesmoke;
     font-style: oblique;
-    
-
 }
-nav a:hover{
+
+nav a:hover {
     text-decoration: none;
     background-color: darkgreen;
     color: white;
     font-weight: bold;
-    cursor:pointer;
-    transition:  .5s;
+    cursor: pointer;
+    transition: .5s;
 }
 
 /*header image*/
 
-.center-image-right img{
+.center-image-right img {
     border-radius: 50%;
-    opacity: 0.7 ;
+    opacity: 0.7;
     height: auto;
     float: right;
     width: auto;
-    
+
 }
 
-.about-us-section{
+.about-us-section {
     width: auto;
     height: auto;
     display: flex;
@@ -108,28 +107,29 @@ nav a:hover{
     margin-bottom: 10%;
 }
 
-.about-us-section h2,p{
+.about-us-section h2,
+p {
     color: darkgreen;
     margin-top: 15%;
 
 }
 
-.about-us-section p{
+.about-us-section p {
     text-align: center;
     line-height: 1.5;
     letter-spacing: normal;
     font-size: 20px;
 }
 
-.about-us-section a{
+.about-us-section a {
     border-radius: 10px;
 }
 
-.about-us-section a:visited{
+.about-us-section a:visited {
     color: rgb(229, 171, 95);
 }
 
-.about-us-section a:hover{
+.about-us-section a:hover {
     color: white;
     text-decoration: none;
 }
@@ -137,50 +137,53 @@ nav a:hover{
 
 /*location*/
 
+
 #location {
-    width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
     color: darkgreen;
 }
 
-#location h3{
+#location h3 {
     font-size: 25px;
-    color:darkgreen;
+    color: darkgreen;
 }
 
+/*web social links*/
 
-/*footer links*/
-
-footer{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: darkgrey;
+footer {
+    width: 100;
+    background-color: rgb(168, 164, 164, 0.5);
 }
+
 
 footer h4 {
-    font-size: 22px;
-    text-align: center;
+    font-size: 25px;
     color: darkgreen;
 }
-    
 
 
-.web-links a{
-    display: inline-block;
+footer ul {
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    font-size: 15px;
-    font-weight: 700;
-    justify-content: center;
-    align-items: center;
+    font-size: 25px;
+    padding-bottom: 2%;
 }
 
-.web-links i{
-    color: rgb(229, 171, 95);
-    font-size: 200%;
-    margin: 10px;
-    padding: 1%;
+footer li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+footer a {
+    color: orangered;
+}
+
+footer a:hover{
+    cursor: pointer;
+    transition: .5s;
+    color: green;
 }
