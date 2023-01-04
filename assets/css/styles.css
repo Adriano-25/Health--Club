@@ -276,6 +276,7 @@ div.gallery{
     flex-wrap: nowrap;
     flex-direction: row-reverse;
     align-items: center;
+
 }
 
   .form h2{
@@ -295,7 +296,6 @@ div.gallery{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 
@@ -308,6 +308,7 @@ div.gallery{
     margin: 25px 0 25px 0;
     border: 2px solid white;
     border-radius: 2px;
+    color: black;
   }
 
   input:hover{
