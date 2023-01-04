@@ -191,7 +191,6 @@ footer a:hover{
 /*photo section*/
 
 .photo img{
-    display: flex;
     width: auto;
     height: auto;
     justify-items: center;
@@ -256,4 +255,83 @@ div.gallery{
     }
   }
   
+  /*sign-up img*/
+
   
+   
+  
+/*form section*/
+
+ 
+
+  .form{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: rgb(168, 164, 164, 0.5);
+    margin: 5px 6px 7px;
+    border: 1px solid lightgrey;
+    padding: 25px 0;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+  .form h2{
+    color: orangered;
+    font-size: 35px;
+  }
+  
+
+  .form-section{
+    display: flex;
+    margin-left: 34%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: orangered;
+    background: rgba(130, 216, 130, 0.3);
+    max-width: 460px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+  .input{
+    display: flex;
+    background: transparent;
+    color: white;
+    width: 90%;
+    height: 25px ;
+    margin: 25px 0 25px 0;
+    border: 2px solid white;
+    border-radius: 2px;
+  }
+
+  input:hover{
+    border-color: darkgreen;
+  }
+
+.button{
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: orangered;
+    color: white;
+    display: block;
+}
+
+.button:hover{
+    background-color: white;
+    color: darkgreen;
+}
+
+#feedback{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
