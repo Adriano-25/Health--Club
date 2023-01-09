@@ -7,8 +7,6 @@
 }
 
 header {
-    width: 100%;
-    height: auto;
     font-family: 'Lato', sans-serif;
     flex-direction: column;
     justify-content: center;
@@ -27,11 +25,8 @@ h1 {
 
 body {
     display: block;
-    margin: 8px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    height: auto;
-    width: 100%;
     background-color: rgba(209, 200, 200, 0.4);
 }
 
@@ -48,21 +43,15 @@ nav {
 }
 
 nav ul {
-    width: 100%;
     display: flex;
+    width: auto;
     justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: nowrap;
     color: darkgreen;
 }
 
-#center ul{
-    width: 100%;
 
-}
 
 ul li {
-    width: auto;
     list-style-type: none;
 }
 
@@ -84,29 +73,21 @@ nav a:hover {
 
 /*header image*/
 
+.center-image-right img{
+    width: 75%;
+    height: auto;
+}
+
 .center-image-right {
-     display: flex; 
-     flex-direction: column; 
-    width: 75%; 
+    width: auto;
     background: transparent;
-    border-radius: 15px;
-    display: block;
-    /* flex-wrap: nowrap; */
-    /* align-content: center; */
-    /* justify-content: space-evenly; */
-    margin-left: 10%;
+    margin: 10%;
 }
 
 
-
-
 .about-us-section {
-    width: auto;
+    width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    align-content: stretch;
     margin-bottom: 10%;
 }
 
@@ -205,14 +186,12 @@ footer a:hover{
 /*photo section*/
 
 
+
 .galley-images {
-    display: block;
-    flex: auto;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-evenly;
-    width: 80%;
-    margin-left: 9%;
+    width: 20%;
+    height: auto;
+    margin: 10%;
+    color: darkgreen;
 }
 
 .gallery-images {
@@ -226,13 +205,12 @@ footer a:hover{
     color: darkgreen;
 }
 
+
 /*under-text-photo-section*/
 
 #desc-photo {
     display: flex;
     background-color: rgb(229, 171, 95, 0.3);
-    text-align: center;
-    text-decoration: underline;
     font-size: 25px;
     color: rgba(109, 157, 109, 0.9);
     padding: 25px 25px 25px;
@@ -246,11 +224,7 @@ footer a:hover{
 
  #screen{
     width: auto;
-    display: flex;
-    justify-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: stretch;
+    height: auto;
     align-items: center;
     background-image: url('../images/two-dumbbells-white-cloth-green-background_23-2147924574.jpg');
     background-size: cover;
@@ -260,16 +234,9 @@ footer a:hover{
  
 
   .form{
-    display: flex;
-    justify-content: center;
     width: auto;
     height: auto;
-    margin: 5px 6px 7px;
-    padding: 25px 0;
-    flex-wrap: nowrap;
-    flex-direction: row-reverse;
-    align-items: center;
-
+    padding-top: 10%;
 }
 
   .form h2{
@@ -279,37 +246,37 @@ footer a:hover{
   
 
   .form-section{
-    display: flex;
-    margin-bottom: 25px;
-    margin-top: 15px;
+    width: 40%;
+    height: 40%;
+    margin-right: 45%;
+    padding: 15px;
+    border: 1px solid white;
     color: white;
     background: rgba(62, 172, 66, 0.671);
-    max-width: 460px;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
 
 
-  .input{
-    display: flex;
-    background: transparent;
-    color: white;
+label{
+    font-size: 15px;
+}
+
+
+.input{
     width: 90%;
-    height: 25px ;
-    margin: 25px 0 25px 0;
-    border: 2px solid white;
-    border-radius: 2px;
-    color: black;
-  }
+    display: block;
+    background: transparent;
+    margin: 1%;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+  
 
   input:hover{
     border-color: darkgreen;
   }
 
 .button{
-    margin-top: 50px;
-    margin-bottom: 25px;
     border-radius: 5px;
     padding: 15px 32px 15px 32px;
     text-align: center;
@@ -326,7 +293,8 @@ footer a:hover{
 }
 
 #feedback{
+    width: 100%;
+    height: auto;
     background: transparent;
-    color: white;
     border: 2px solid white;
 }
