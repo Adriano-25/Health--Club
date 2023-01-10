@@ -6,7 +6,12 @@
     border: 0;
 }
 
+html{
+    overflow: hidden;
+}
+
 header {
+
     font-family: 'Lato', sans-serif;
     flex-direction: column;
     justify-content: center;
@@ -14,8 +19,8 @@ header {
 }
 
 h1 {  
-    display: block;
     width: 100%;
+    overflow: hidden;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(168, 164, 164, 0.5);
     color: green;

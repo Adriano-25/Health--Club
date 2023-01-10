@@ -53,8 +53,7 @@ Club Health is a website that allows the user to find interesting information ab
    * The Website was styled using custom CSS in an external file.
  * Font Awesome 
    * Icons used for obtain titles nad Social media links in footer section.
- * Pixels
-   * Pictures are taken from this website.
+
 
 
 ## Validator Testing
@@ -74,5 +73,14 @@ Club Health is a website that allows the user to find interesting information ab
   * In the GitHub repository, navigate to the Settings tab.
   * From the source section drop-down menu, select the Main Branch
   * Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  The live link can be found here - [adriano-25.github.io/Health--Club/](https://adriano-25.github.io/Health--Club/)
 
-## 
+### Content
+  * The text for the Home page was written from the author Health Club.
+  * The icons in the footer were taken from [Font Awesome]{https://fontawesome.com/}
+
+### Media
+  * The pictures are taken from [Pixabay](https://pixabay.com/sv/) and [iStock](https://www.istockphoto.com/se?esource=SEM_IS_BI_SE_Pure-Brand_iStock_SV_Exact&kw=SE_Misspellings_Exact_i+stpck_e&kwid=s_43700036198446986_dc&pcrid=&utm_medium=cpc&utm_source=MICROSOFT&utm_campaign=SE_Pure-Brand_iStock_SV_Exact&utm_term=i+stpck&&msclkid=37d561f6da171386a0b2024a705349d4&gclid=37d561f6da171386a0b2024a705349d4&gclsrc=3p.ds)
+
+
+  
